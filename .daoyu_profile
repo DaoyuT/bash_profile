@@ -3,7 +3,7 @@ EDITOR=subl
 
 # useful aliases
 alias cpwd='pwd | tr -d \\'\n\\' | pbcopy' #copy current working directory
-alias lf='ls -AlFGh'
+alias ll='ls -AlFGh'
 alias rm='rm -i' #ask for confirmation before rm
 alias gitlog='git log --oneline --all --decorate --graph'
 alias mdkir=mkdir
