@@ -2,24 +2,24 @@
 EDITOR=subl
 
 # useful aliases
-alias cpwd="pwd | tr -d '\n' | pbcopy" #copy current working directory
-alias lf="ls -AlFGh"
-alias rm="rm -i" #ask for confirmation before rm
-alias gitlog="git log --oneline --all --decorate --graph"
+alias cpwd='pwd | tr -d \\'\n\\' | pbcopy' #copy current working directory
+alias lf='ls -AlFGh'
+alias rm='rm -i' #ask for confirmation before rm
+alias gitlog='git log --oneline --all --decorate --graph'
 alias mdkir=mkdir
 alias g=git
 alias d=docker
 alias dc=docker-compose
-alias dps="docker ps"
-alias dpsa="docker ps -a"
+alias dps='docker ps'
+alias dpsa='docker ps -a'
 alias sshconfig="${EDITOR} ~/.ssh/config"
 alias subl=sublime
 alias s=sublime
 alias t=terraform
-alias tclean="rm -rf .terraform"
+alias tclean='rm -rf .terraform'
 alias c=code
 alias daoyu="${EDITOR} ~/.daoyu_profile"
-alias daoyutu="source $HOME/.daoyu_profile"
+alias daoyutu='source $HOME/.daoyu_profile'
 
 # Just for fun
 alias fucking=sudo
